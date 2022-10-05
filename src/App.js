@@ -3,6 +3,7 @@ import NavigationsBar from "./components/NavigationsBar";
 import "./components/style/LandingPage.css";
 import Intro from "./components/Intro";
 import Trending from "./components/Trending";
+import Isekai from "./components/isekai";
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
       {/*Trending section*/}
       <div className='Trending'>
         <Trending />
+      </div>
+      {/*End Trending section*/}
+
+      {/*Trending section*/}
+      <div className='Isekai'>
+        <Isekai />
       </div>
       {/*End Trending section*/}
     </div>

@@ -23,3 +23,20 @@
   font-weight: 700;
   line-height: 1;
 }
+
+.trending {
+  height: auto;
+  background-color: #251b37;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+  height: auto;
+  margin: 5px;
+}
+
+.images {
+  height: 500px;
+}
